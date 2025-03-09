@@ -30,13 +30,13 @@ public class TodoListAdapter extends RecyclerView.Adapter<TodoListAdapter.TaskVi
         String task = todoList.get(position);
         holder.taskText.setText(task);
 
-        // Use getAdapterPosition() instead of the position parameter
+
         holder.deleteButton.setOnClickListener(v -> {
             int currentPosition = holder.getAdapterPosition();
             if (currentPosition != RecyclerView.NO_POSITION) {
                 todoList.remove(currentPosition);
                 notifyItemRemoved(currentPosition);
-                // Also notify of potential changes in subsequent items
+
                 notifyItemRangeChanged(currentPosition, todoList.size() - currentPosition);
             }
         });
