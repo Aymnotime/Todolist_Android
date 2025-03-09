@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "134546437634",
+    "project_id": "matodolist-7d60f",
+    "storage_bucket": "matodolist-7d60f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134546437634:android:413682137f70b08396d91b",
+        "android_client_info": {
+          "package_name": "com.example.matodolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134546437634-rdtffl9eb65hdt2eo3hes3g6tm2tn841.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matodolist",
+            "certificate_hash": "0a14c230bbd9388165d5a6ecce49722162b6eb45"
+          }
+        },
+        {
+          "client_id": "134546437634-e461mh9sp01p768u9c8tfb1q7rfiets7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3rJlj9ragaTYSQGThRx6NbEPnP261uiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134546437634-e461mh9sp01p768u9c8tfb1q7rfiets7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

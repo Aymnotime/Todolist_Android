@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Theme.MaToDoList.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">#7B1FA2</item>
+        <item name="colorPrimaryDark">#4A148C</item>
+        <item name="colorAccent">#E040FB</item>
+    </style>
+
+
+    <style name="FirebaseLoginTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
